@@ -10,12 +10,17 @@ SonarQube
 
 
 URL - https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
+https://medium.com/@humzaarshadkhan/sonarqube-installation-on-ubuntu-20-04-9c4f8e293870
+`
 install mysql in Ubuntu
-Step 1 — Installing MySQL --> sudo apt update
-step 2 -Then install the mysql-server package --> sudo apt install mysql-server
+Step 1 — sudo apt-get install openjdk-11-jdk -y
+Step 2 - Installing MySQL --> Then install the mysql-server package --> sudo apt install mysql-server
 step 3 - Ensure that the server is running using the systemctl start command --> sudo systemctl start mysql.service
-step 4 - mysql -h (DATABASE ENDPOINT) -P 3306 -u admin -p
+step 4 - wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-9.6.1.59531.zip
+step 5 - sudo apt-get install zip -y
+step 6 - mysql -h (DATABASE ENDPOINT) -P 3306 -u admin -p
 mysql -h mysonar.cur9sziy6ysl.ap-south-1.rds.amazonaws.com -P 3306 -u admin -p
+
 
 Put command and execute  in mysql - mysql command
 
