@@ -21,6 +21,12 @@ step 4 - wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-
 step 5 - sudo apt-get install zip -y
 step 6 - mysql -h (DATABASE ENDPOINT) -P 3306 -u admin -p
 mysql -h mysonar.cur9sziy6ysl.ap-south-1.rds.amazonaws.com -P 3306 -u admin -p
+-> sudo update-alternatives --config java
+   /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.372.b07-1.amzn2.0.1.x86_64/jre/bin/java
+   -> edit wrapper.conf & sonar.properties
+   ./soanr.sh start
+root la --> chown -R ubuntu:ubuntu /opt/sonarqube-6.7.6
+
 
 
 Put command and execute  in mysql - mysql command
