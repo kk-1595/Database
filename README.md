@@ -5,8 +5,9 @@ SonarQube
    -> yum install mysql -y
    -> https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-6.7.6.zip
    -> sudo update-alternatives --config java
-   -> /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.372.b07-1.amzn2.0.1.x86_64/jre/bin/java
+   /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.372.b07-1.amzn2.0.1.x86_64/jre/bin/java
    -> edit wrapper.conf & sonar.properties
+   start sonarqube service
 
 
 URL - https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-20-04
