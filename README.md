@@ -1,4 +1,4 @@
-# Database
+# Database/sonarqube integration with jenkins
 SonarQube
    -> amazon-linux-extras install epel
    -> amazon-linux-extras install java-openjdk11
